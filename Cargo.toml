@@ -1,7 +1,13 @@
 [package]
 name = "schematis"
 version = "0.1.0"
+description = "XML Schema Definition (XSD) file reader"
 edition = "2021"
+license = "MIT"
+categories = ["parsing"]
+repository = "https://github.com/mluttikh/schematis.git"
+keywords = ["xsd", "xml", "schema", "w3c", "reader"]
+readme = "README.md"
 
 [dependencies]
 quick-xml = { version = "0.32.0", features = ["serde", "serialize"] }
