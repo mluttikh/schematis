@@ -1,0 +1,8 @@
+[package]
+name = "schematis"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+quick-xml = { version = "0.32.0", features = ["serde", "serialize"] }
+serde = { version = "1.0.203", features = ["derive"] }
